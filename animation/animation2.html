@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            margin: 200px auto;
+            transform: scale(3);
+            /*X= width Y=height*/
+        }
+
+        .card {
+            height: 400px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 200px auto;
+            box-shadow: 10px 10px 5px rgb(157, 147, 147),
+                -10px -10px 5px rgb(157, 147, 147)
+        }
+
+        img {
+            transition: ease-in 2s;
+            height: 200px;
+            width: 200px;
+            animation-name: camera;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+
+        @keyframes camera {
+            from {
+                transform: translate(0px)
+            }
+
+            to {
+                transform: translate(200px)
+            }
+        }
+
+
+
+
+        img:hover {
+            transform: scale(1.2);
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="div1">scale</div>
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmlld3xlbnwwfHwwfHw%3D&w=1000&q=80"
+            alt="">
+        <h2>Product name</h2>
+        <h5>Rs 45000</h5>
+
+    </div>
+</body>
+
+</html>

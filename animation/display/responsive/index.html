@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            height: 70px;
+            align-items: center;
+            background-color: black;
+
+        }
+
+        li {
+            list-style: none;
+            color: white;
+            font-size: 20px;
+            margin: 0 20px;
+        }
+
+        @media (max-width:385px) {
+            .navbar {
+                display: block;
+                height: 200px;
+
+            }
+        }
+
+        h2 {
+            background-color: green;
+
+
+        }
+        /*responsive design*/
+
+        @media (max-width:390px) {
+            .heading1 {
+                display: block;
+                height: 100px;
+            }
+        }
+
+        @media (max-width:400px) {
+            h2 {
+                background-color: grey;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>heading1</h2>
+    <div class="navbar">
+        <li>home</li>
+        <li>about</li>
+        <li>services</li>
+
+    </div>
+</body>
+
+</html>

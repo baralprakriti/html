@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style> 
+        * { 
+            font-size: 60px;
+            background-color: grey;
+        }
+        .div1 + h1 {
+            background-color: greenyellow;
+        }
+        .div2 ~ h2 {
+            background-color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- adjuacent selector (+) -->
+    <div class="div1">
+        <h1>heading1</h1>
+    </div>
+    <h1>heading2</h1>
+    <h1>heading3</h1>
+    <h1>heading4</h1>
+
+    <!-- general selector (~) -->
+    <div class="div2">
+        <h2>hello1</h2>
+    </div>
+    <h2>hello2</h2>
+    <h2>hello3</h2>
+    <h2>hello4</h2>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+            background-color: black;
+            height: 70px;
+           }
+
+        li { 
+            color: white;
+            font-size: 20px;
+            margin: 0 20px;
+            }
+            .home {
+                flex-grow: 2;
+                background-color: green;
+            }
+            .about {
+                flex-grow: 1;
+                background-color: red;
+            }
+            .contant {
+                flex-grow: 1;
+                background-color: grey;
+            }
+    </style>
+</head>
+<body>
+    <!-- flexbox -->
+    <ul>
+        <li class="home">Home</li>
+        <li class="about">About</li>
+        <li class="contant">Contant</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>content</li>
+        <li>Services</li>
+        <li>Products</li> 
+    </ul>
+    
+</body>
+</html>

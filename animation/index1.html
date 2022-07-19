@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <style>
+        .div1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: grey;
+            height: 100px;
+
+
+        }
+
+        .productcard {
+            display: flex;
+            height: 400px;
+            width: 400px;
+            justify-content: center;
+            flex-direction: column;
+            border: 1px solid black;
+            align-items: center;
+            box-shadow: 10px 20px 5px red;
+            margin: 20px;
+        }
+
+
+        .main {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            height: 400px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 200px auto;
+            box-shadow: 10px 10px 5px rgb(27, 144, 198),
+                -10px -10px 5px rgb(18, 147, 203)
+        }
+
+        img {
+            transition: ease-in 2s;
+            height: 200px;
+            width: 200px;
+            animation-name: camera;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes camera {
+            from {
+                transform: translate(0px)
+            }
+
+            to {
+                transform: translate(200px)
+            }
+        }
+
+
+
+
+        img :hover {
+            transform: scale(1.2);
+        }
+
+        .productcard1 {
+            display: flex;
+            height: 400px;
+            width: 400px;
+            justify-content: center;
+            flex-direction: column;
+            border: 1px solid black;
+            align-items: center;
+            box-shadow: 10px 20px 5px red;
+            margin: 20px;
+
+        }
+
+        .img {
+            transition: ease-in 2s;
+            height: 200px;
+            width: 200px;
+            animation-name: Laptop;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes laptop {
+            from {
+                transform: translate(0px)
+            }
+
+            to {
+                transform: translate(200px)
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+
+        <li>home</li>
+        <li>about</li>
+        <li>product</li>
+        <li>contant</li>
+
+    </div>
+    <div class="container">
+        <div class="main">
+            <div class="productcard">
+                <img src="https://static-01.daraz.com.np/p/75304c96e801252805260781f20beb06.jpg" alt="" height="100px"
+                    width="100px">
+
+                <h4>Product Name</h4>
+                <p>Rs.42000</p>
+                <button>Add To Card</button>
+
+
+            </div>
+
+
+            <div class="productcard">
+                <img src="https://static-01.daraz.com.np/p/75304c96e801252805260781f20beb06.jpg" alt="" height="100px"
+                    width="100px">
+
+                <h4>Product Name</h4>
+                <p>Rs.42000</p>
+                <button>Add To Card</button>
+
+
+            </div>
+
+            <div class="productcard">
+                <img src="https://static-01.daraz.com.np/p/75304c96e801252805260781f20beb06.jpg" alt="" height="100px"
+                    width="100px">
+
+                <h4>Product Name</h4>
+                <p>Rs.42000</p>
+                <button>Add To Card</button>
+
+
+            </div>
+            <div class="productcard">
+                <img src="https://static-01.daraz.com.np/p/75304c96e801252805260781f20beb06.jpg" alt="" height="100px"
+                    width="100px">
+
+                <h4>Product Name</h4>
+                <p>Rs.42000</p>
+                <button>Add To Card</button>
+
+
+            </div>
+
+            <div class="productcard">
+                <img src="https://static-01.daraz.com.np/p/75304c96e801252805260781f20beb06.jpg" alt="" height="100px"
+                    width="100px">
+
+                <h4>Product Name</h4>
+                <p>Rs.42000</p>
+                <button>Add To Card</button>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <div class="sub-main">
+        <div class="productcard1">
+            <img src="https://static.frame.work/d95hpc096mt5u4tirhfzzr5adg71" alt="" height="100px" width="100px">
+            <h4>Product Name</h4>
+            <p>Rs.90000</p>
+            <button>Add To Card</button>
+
+        </div>
+        <div class="productcard1">
+            <img src="https://static.frame.work/d95hpc096mt5u4tirhfzzr5adg71" alt="" height="100px" width="100px">
+            <h4>Product Name</h4>
+            <p>Rs.90000</p>
+            <button>Add To Card</button>
+
+        </div>
+        <div class="productcard1">
+            <img src="https://static.frame.work/d95hpc096mt5u4tirhfzzr5adg71" alt="" height="100px" width="100px">
+            <h4>Product Name</h4>
+            <p>Rs.90000</p>
+            <button>Add To Card</button>
+
+        </div>
+        <div class="productcard1">
+            <img src="https://static.frame.work/d95hpc096mt5u4tirhfzzr5adg71" alt="" height="100px" width="100px">
+            <h4>Product Name</h4>
+            <p>Rs.90000</p>
+            <button>Add To Card</button>
+
+        </div>
+        <div class="productcard1">
+            <img src="https://static.frame.work/d95hpc096mt5u4tirhfzzr5adg71" alt="" height="100px" width="100px">
+            <h4>Product Name</h4>
+            <p>Rs.90000</p>
+            <button>Add To Card</button>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>

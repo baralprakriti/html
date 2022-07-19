@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1 {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-name: div1;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: infinite;
+
+            @keyframes div1 {
+                from {
+                    width:0px;
+
+                }
+                to {
+                    width:400px;
+                }
+                
+            }
+        }
+        .div2 {
+            height: 100px;
+            width: 100px;
+            background-color: yellow;
+            animation-name: div2;
+            animation-duration: 5s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+            @keyframes div2 {
+                from {
+                    width: 0px;
+
+                }
+                to{
+                    width:400px;
+                }
+            }
+
+
+          
+        }
+
+        .div3 {
+            height: 100px;
+            width: 100px;
+            background-color: blue;
+            animation-name: div3;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: infinite;
+            @keyframes div3 {
+                from  {
+                    width: 0px;
+
+                }
+                to{
+                    width:400px;
+                }
+            }
+
+
+        }
+        .div4 {
+            height: 100px;
+            width: 100px;
+            background-color:green;
+            animation-name: div4;
+            animation-duration: 5s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+            @keyframes div4 {
+                from  {
+                    transform:translate(100px)
+                }
+                to {
+                    transform:translate(400px)
+                }
+                
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">ease-in</div>
+    <div class="div2">ease-out</div>
+    <div class="div3">ease-in-out</div>
+    <div class="div4">linear</div>
+</body>
+</html>

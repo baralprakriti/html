@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+         
+            height: 400px;
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 5px solid black;
+            align-items: center;
+            margin: 20px;
+            box-shadow: 10px 20px 5px red;
+            position: relative;
+            overflow: hidden;
+          
+        }
+
+        .main::after {
+            content: "20% off";
+            transform: rotate(20deg);
+            position: absolute;
+            top: 10px;
+            text-align: center;
+          
+            background-color:yellow;
+            width: 50%;
+            padding: 10px;
+            left: 200px;
+           }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://static-01.daraz.com.np/p/75304c96e801252805260781f20beb06.jpg" alt=""
+        height="200px"
+        width="200px">
+
+        <h4>Product Name</h4>
+        <p>Rs.42000</p>
+     
+
+
+    </div>
+</body>
+</html>

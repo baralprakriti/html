@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+        * {
+            background-color: blue;
+
+        
+
+        }
+
+        .div1 > h2 {
+            background-color: gray;
+        }
+        .divsub > h2 {
+            background-color: purple;
+        }
+        .divdesc > h3 {
+            background-color: brown;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        hello iniversal selector</h1>
+
+        <div class="div1">
+            <h2>hello child one</h2>
+            <h2>hello child two</h2>
+            <div class="divsub">
+                <h2>hello sub child</h2>
+            </div>
+            
+
+        </div>
+        <div class="divdesc">
+            <h3>descendant selectors1</h3>
+            <h3>descendant selector2</h3>
+
+        </div>
+    <div class="div2">
+        <h3>hello descendant</h3>
+    </div>
+    <div class="div3">
+        <h3>hello</h3>
+    </div>
+</body>
+</html>
